@@ -166,6 +166,7 @@ i {
   }
 }
 .about {
+  margin-top: 3rem;
   background-color: #ebf3eb;
   overflow: hidden;
   color: #1d1d11;
@@ -201,22 +202,26 @@ i {
   }
 }
 .products {
+  margin-top: 12rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.products h2 {
+  margin-bottom: 2rem;
 }
 
 .product-content h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
 }
 
 .product-content p {
   line-height: 150%;
-  margin-bottom: 24px;
+  margin-bottom: 3rem;
   text-align: center;
   max-width: 780px;
 }
@@ -225,7 +230,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 36px;
+  gap: 4rem;
   padding: 0 36px 34px 44px;
 }
 
@@ -234,6 +239,7 @@ i {
   display: flex;
   flex-direction: column;
   background-color: #d64647;
+  color: #ebf3eb;
   border-radius: 1rem;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -273,12 +279,17 @@ i {
   justify-content: center;
   padding: 54px 0;
   gap: 24px;
-  color: #ebf3eb;
+  color: #040402;
 }
 
 .footer-icons {
   display: flex;
   gap: 18px;
+}
+
+.footer-icons a:hover i {
+  animation: translateYAnimation 0.8s infinite alternate;
+  color: #1d1d11;
 }
 
 .footer-logo {

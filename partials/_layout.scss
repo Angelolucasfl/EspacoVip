@@ -94,6 +94,7 @@
 }
 
 .about{
+    margin-top: 3rem;
     background-color: $white-light;
     overflow: hidden;
     color: $black-light;
@@ -134,22 +135,27 @@
 }
 
 .products{
+    margin-top: 12rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    h2{
+        margin-bottom: 2rem;
+    }
 }
 
 .product-content h2{
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
 }
 
 .product-content p{
     line-height: 150%;
-    margin-bottom: 24px;
+    margin-bottom: 3rem;
     text-align: center;
     max-width: 780px;
 }
@@ -158,7 +164,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 36px;
+    gap: 4rem;
     padding: 0 36px 34px 44px;
 }
 
@@ -167,6 +173,7 @@
     display: flex;
     flex-direction: column;
     background-color: $primary-color;
+    color: $white-light;
     border-radius: 1rem;
     box-shadow: 0px -1px 17px -4px rgba(0,0,0,0.5);
     overflow: hidden;
@@ -209,12 +216,17 @@
     justify-content: center;
     padding: 54px 0;
     gap: 24px;
-    color: $white-light;
+    color: $black;
 }
 
 .footer-icons{
     display: flex;
     gap: 18px;
+}
+
+.footer-icons a:hover i {
+    animation: translateYAnimation 0.8s infinite alternate;
+    color: $black-light;
 }
 
 .footer-logo{
